@@ -10,7 +10,6 @@ API_KEY = "tE1CfP57Rwtd"
 PROJECT_TOKEN = "tdPXxeFddBZz"
 RUN_TOKEN = "tuToDv3UfbnT"
 
-
 class Data:
 	def __init__(self, api_key, project_token):
 		self.api_key = api_key
@@ -75,12 +74,10 @@ class Data:
 		t = threading.Thread(target=poll)
 		t.start()
 
-
 def speak(text):
 	engine = pyttsx3.init()
 	engine.say(text)
 	engine.runAndWait()
-
 
 def get_audio():
 	r = sr.Recognizer()
@@ -94,7 +91,6 @@ def get_audio():
 			print("Exception:", str(e))
 
 	return said.lower()
-
 
 def main():
 	print("Started Program")
