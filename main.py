@@ -6,9 +6,9 @@ import re
 import threading
 import time
 
-API_KEY = "tE1CfP57Rwtd"
-PROJECT_TOKEN = "tdPXxeFddBZz"
-RUN_TOKEN = "tuToDv3UfbnT"
+API_KEY = "tE1CfP5wtd"
+PROJECT_TOKEN = "tdPXxeFBZz"
+RUN_TOKEN = "tuToDvfbnT"
 
 class Data:
 	def __init__(self, api_key, project_token):
@@ -143,4 +143,3 @@ def main():
 			break
 
 main()
-
